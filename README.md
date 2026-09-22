@@ -487,7 +487,10 @@
             tbody.appendChild(tr);
         });
     }
-
+.row-programa {
+    background-color: #e2e8f0 !important; /* Fundo levemente escurecido (cinza suave) */
+    font-weight: bold;                      /* Texto em negrito */
+}
     // Inicialização
     renderGrid();
 </script>
