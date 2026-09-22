@@ -1,5 +1,5 @@
 
-# simulador-novo-3<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -198,7 +198,7 @@
 
 <div class="container">
     <header>
-        <h1>📺 Montador de Grade de TV Aberta</h1>
+        <h1>📺 SIMULADOR DE GRADE</h1>
         <div class="start-time-group">
             <label for="startTime">Início da Grade:</label>
             <input type="time" id="startTime" value="06:00:00" step="1" onchange="renderGrid()">
