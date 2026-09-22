@@ -209,6 +209,10 @@
             <label for="itemType">Tipo de Elemento</label>
             <select id="itemType" onchange="toggleInputs()">
                 <option value="programa">📺 Programa</option>
+                {
+    background-color: #e2e8f0 !important; /* Fundo levemente escurecido (cinza suave) */
+    font-weight: bold;                      /* Texto em negrito */
+}
                 <option value="comercial">💰 Inserção Comercial</option>
                 <option value="chamada">📢 Chamada / Promo</option>
                 <option value="marco">🎯 Marco de Afinação</option>
@@ -487,9 +491,7 @@
             tbody.appendChild(tr);
         });
     }
-.row-programa {
-    background-color: #e2e8f0 !important; /* Fundo levemente escurecido (cinza suave) */
-    font-weight: bold;                      /* Texto em negrito */
+                     
 }
     // Inicialização
     renderGrid();
